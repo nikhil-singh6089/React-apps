@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import OurTour from "./Tour app/OurTour";
+// import Reviews from "./Tour app/Reviews";
+// import Menu from "./OurMenu/Menu";
+// import GroceryBud from "./GroceryBud/GroceryBud";
+// import MakeNavbar from "./navBar/MakeNavbar";
+// import ProjectOne from "./projectOne/projectOne";
+// import Stripe from "./projectTwo-Stripe/stripe";
+// import CartSection from "./CartSection/CartSection";
+import Drinks from "./Drinks/Drinks";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      {/* <OurTour /> */}
+      {/* <Reviews /> */}
+      {/* <Menu /> */}
+      {/* <GroceryBud /> */}
+      {/* <MakeNavbar /> */}
+      {/* <ProjectOne /> */}
+      {/* <Stripe /> */}
+      {/* <CartSection /> */}
+      <Drinks />
+    </React.Fragment>
   );
-}
+};
 
 export default App;
